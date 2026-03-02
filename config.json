@@ -1,0 +1,129 @@
+{
+    "backlight": {
+        "r": 0,
+        "g": 100,
+        "b": 255
+    },
+    "lcd_mode": "clock",
+    "lcd_message": "G13 Ready",
+    "joystick_mode": "mouse",
+    "joystick_sensitivity": 5,
+    "joystick_deadzone": 20,
+    "active_profile": "M1",
+    "profiles": {
+        "M1": {
+            "name": "Gaming",
+            "color": {
+                "r": 0,
+                "g": 100,
+                "b": 255
+            },
+            "bindings": {
+                "G1": "ESC",
+                "G2": "1",
+                "G3": "2",
+                "G4": "3",
+                "G5": "4",
+                "G6": "5",
+                "G7": "TAB",
+                "G8": "Q",
+                "G9": "W",
+                "G10": "E",
+                "G11": "R",
+                "G12": "T",
+                "G13": "CAPSLOCK",
+                "G14": "A",
+                "G15": "S",
+                "G16": "D",
+                "G17": "F",
+                "G18": "G",
+                "G19": "LEFTSHIFT",
+                "G20": "Z",
+                "G21": "X",
+                "G22": "MACRO:TYPE:hello",
+                "LEFT": "MOUSE_LEFT",
+                "DOWN": "MOUSE_RIGHT",
+                "TOP": "UP",
+                "BD": "SPACE"
+            }
+        },
+        "M2": {
+            "name": "Coding",
+            "color": {
+                "r": 0,
+                "g": 255,
+                "b": 0
+            },
+            "bindings": {
+                "G1": "TYPE:npm run build\n",
+                "G2": "COMBO:LEFTCTRL+S",
+                "G3": "COMBO:LEFTCTRL+LEFTSHIFT+P",
+                "G4": "COMBO:LEFTCTRL+GRAVE",
+                "G5": "TYPE:git status\n",
+                "G6": "TYPE:git add .\n",
+                "G7": "TYPE:git commit -m \"",
+                "G8": "COMBO:LEFTCTRL+Z",
+                "G9": "COMBO:LEFTCTRL+LEFTSHIFT+Z",
+                "G10": "COMBO:LEFTCTRL+C",
+                "G11": "COMBO:LEFTCTRL+V",
+                "G12": "COMBO:LEFTCTRL+X",
+                "G13": "COMBO:LEFTCTRL+A",
+                "G14": "COMBO:LEFTCTRL+F",
+                "G15": "COMBO:LEFTCTRL+H",
+                "G16": "COMBO:LEFTCTRL+D",
+                "G17": "COMBO:LEFTALT+UP",
+                "G18": "COMBO:LEFTALT+DOWN",
+                "G19": "COMBO:LEFTCTRL+LEFTSHIFT+K",
+                "G20": "TYPE:console.log()\n",
+                "G21": "TYPE:import \n",
+                "G22": "MACRO:TYPE:\\n,DELAY:750,DELAY:50,TYPE:hello world"
+            }
+        },
+        "M3": {
+            "name": "Media",
+            "color": {
+                "r": 255,
+                "g": 0,
+                "b": 128
+            },
+            "bindings": {
+                "G1": "PLAYPAUSE",
+                "G2": "NEXTSONG",
+                "G3": "PREVIOUSSONG",
+                "G4": "VOLUMEUP",
+                "G5": "VOLUMEDOWN",
+                "G6": "MUTE"
+            }
+        }
+    },
+    "alarms": [
+        {
+            "time": "10:01",
+            "enabled": true,
+            "actions": [
+                "display",
+                "flash"
+            ],
+            "message": "",
+            "command": ""
+        },
+        {
+            "time": "",
+            "enabled": false,
+            "actions": [
+                "display"
+            ],
+            "message": "",
+            "command": ""
+        },
+        {
+            "time": "",
+            "enabled": false,
+            "actions": [
+                "display"
+            ],
+            "message": "",
+            "command": ""
+        }
+    ]
+}
